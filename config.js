@@ -21,8 +21,8 @@ global.devs = "255742862266";
 global.sudo = process.env.SUDO || "255742862266";
 global.owner = process.env.OWNER_NUMBER || "255742862266";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "true";
-global.wlcm = process.env.WELCOME || "true";
+global.gdbye = process.env.GOODBYE || "false";
+global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -51,8 +51,8 @@ module.exports = {
   caption: process.env.CAPTION || "you're using first powerful bot to be released in Tanzania| enjoy your time| this is 𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑 𝐌𝐃",
   author: process.env.PACK_AUTHER || "VENOCYBER",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOCYBER-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "VENOCYBER",
+  botname: process.env.BOT_NAME || "DJ-𝐌𝐃",
+  ownername: process.env.OWNER_NAME || "DJ",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
